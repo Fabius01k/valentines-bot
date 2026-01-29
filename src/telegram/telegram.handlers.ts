@@ -27,7 +27,7 @@ export class TelegramHandlers {
 
             await this.bot.sendMessage(
                 msg.chat.id,
-                `💌 Привет, ${user.firstName}!`,
+                `💌 Привет, ${user.firstName}! Добро пожаловать в анонимные валентинки команды Coins Game 😀`,
                 this.mainMenu(),
             );
         });
